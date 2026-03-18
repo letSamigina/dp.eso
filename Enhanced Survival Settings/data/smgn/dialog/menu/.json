@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:dialog_list",
+  "title": "Enhanced Survival Options",
+  "exit_action": {
+    "label": "閉じる",
+    "action": {
+      "type": "minecraft:copy_to_clipboard",
+      "value": ""
+    }
+  },
+  "dialogs": [
+    "smgn:menu/weather"
+  ],
+  "columns": 1
+}

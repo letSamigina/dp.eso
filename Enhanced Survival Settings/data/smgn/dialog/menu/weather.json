@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "天候設定",
+  "inputs": [
+    {
+      "type": "minecraft:single_option",
+      "key": "_smgn_weather_settings_01",
+      "label": "天候",
+      "options": [
+        {
+          "id": "0",
+          "display": "晴れ"
+        },
+        {
+          "id": "1",
+          "display": "雨"
+        },
+        {
+          "id": "2",
+          "display": "雷雨"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:boolean",
+      "key": "_smgn_weather_settings_02",
+      "label": "天候を固定化する",
+      "on_true": "1",
+      "on_false": "0"
+    }
+  ],
+  "actions": [
+    {
+      "label": "戻る",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "smgn:menu/"
+      }
+    },
+    {
+      "label": "適用",
+      "action": {
+        "type": "minecraft:dynamic/run_command",
+        "template": "/trigger .smgn.score.events set 71701$(_smgn_weather_settings_01)$(_smgn_weather_settings_02)"
+      }
+    }
+  ]
+}

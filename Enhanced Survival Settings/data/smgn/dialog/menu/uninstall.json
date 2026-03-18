@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:confirmation",
+  "title": "アンインストール",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": "Enhanced Survival Optionsをアンインストールする場合\n下部のアンインストールをクリックした後にワールドから退出\n\n再びワールドに入らずに\ndatapacksからzipファイルを削除してください",
+    "width": 300
+  },
+  "yes": {
+    "label": "戻る",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "smgn:menu/"
+    }
+  },
+  "no": {
+    "label": "アンインストール",
+    "action": {
+      "type": "minecraft:run_command",
+      "command": "/trigger .smgn.score.events set 99"
+    }
+  }
+}

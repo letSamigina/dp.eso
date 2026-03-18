@@ -1,0 +1,1 @@
+execute if score @s .smgn.score.events matches 99 run function smgn:uninstall/

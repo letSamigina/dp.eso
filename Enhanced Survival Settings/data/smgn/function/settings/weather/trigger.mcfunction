@@ -1,0 +1,1 @@
+execute if score @s .smgn.score.events matches 7170100..7170121 run function smgn:settings/weather/
