@@ -2,7 +2,7 @@
 サバイバルモードを快適にプレイするための設定項目を追加するデータパックです。
 
 ## 【データパック名】
-Enhanced Survival Options Ver.1.0.0
+Enhanced Survival Options Ver.1.0.1
 
 ### 《対応バージョン》
  - Minecraft Java Edition Ver.1.21.11
