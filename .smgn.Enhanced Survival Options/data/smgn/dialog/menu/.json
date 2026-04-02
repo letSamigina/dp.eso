@@ -9,7 +9,8 @@
     }
   },
   "dialogs": [
-    "smgn:menu/weather"
+    "smgn:menu/weather",
+    "smgn:menu/death_pos"
   ],
   "columns": 1
 }

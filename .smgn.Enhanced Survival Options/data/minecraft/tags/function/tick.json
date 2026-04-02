@@ -1,6 +1,7 @@
 {
     "values": [
         "smgn:settings/trigger",
-        "smgn:tag/add"
+        "smgn:tag/add",
+        "smgn:death/trigger"
     ]
 }

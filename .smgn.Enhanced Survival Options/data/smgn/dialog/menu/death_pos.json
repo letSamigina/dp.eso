@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "死亡地点履歴",
+  "external_title": "死亡地点の確認",
+  "body": {
+    "type": "minecraft:plain_message",
+    "contents": ["",
+      {
+        "storage": ".smgn:.death",
+        "nbt": "temp.x"
+        }
+    ]
+  },
+  "actions": [
+    {
+      "label": "戻る",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "smgn:menu/"
+      }
+    },
+    {
+      "label": "テキストとして表示",
+      "action": {
+        "type": "run_command",
+        "command": "/trigger .smgn.score.events set 71702000"
+      }
+    }
+  ]
+}
